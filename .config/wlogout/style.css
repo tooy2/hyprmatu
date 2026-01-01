@@ -1,0 +1,107 @@
+window {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+button {
+    border-radius: 14px;
+    padding: 22px;
+    font-size: 18px;
+    color: @on-surface;
+    background-color: @surface;
+    border: 2px solid @outline;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    background-size: 38px;
+}
+
+/* نص الأزرار */
+button label {
+    margin-top: 45px;
+    font-size: 17px;
+    color: @on-surface;
+}
+
+/* Hover */
+button:hover {
+    background-color: @surface-variant;
+    border-color: @primary;
+}
+
+/* Active */
+button:active {
+    background-color: @surface;
+}
+
+/* ربط كل زر بأيقونته */
+#lock {
+background-image: url("icons/lock.png");
+background-color: alpha(@primary, 0.1);
+border-color: alpha(@primary, 0.3);
+}
+
+#logout {
+background-image: url("icons/logout.png");
+background-color: alpha(@primary, 0.1);
+border-color: alpha(@primary, 0.3);
+}
+
+#suspend {
+background-image: url("icons/suspend.png");
+background-color: alpha(@primary, 0.1);
+border-color: alpha(@primary, 0.3);
+}
+
+#reboot {
+background-image: url("icons/reboot.png");
+background-color: alpha(@primary, 0.1);
+border-color: alpha(@primary, 0.3);
+}
+
+#shutdown {
+background-image: url("icons/shutdown.png");
+background-color: alpha(@primary, 0.1);
+border-color: alpha(@primary, 0.3);
+}
+
+#hibernate {
+margin: 10px;
+border-radius: 20px;
+border: 1px solid @primary;
+background-image: url("icons/hibernate.png");
+background-color: alpha(@primary-container, 0.1);
+border-color: alpha(@primary-container, 0.3);
+}
+
+/* Hover effects for each button */
+#lock:hover {
+background-color: alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+#logout:hover {
+background-color: alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+#suspend:hover {
+background-color: alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+#reboot:hover {
+background-color: alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+#shutdown:hover {
+background-color: alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+#hibernate:hover {
+background-color:alpha(@primary, 0.2);
+border-color: @primary;
+}
+
+/* Import Matugen colors */
+@import "colors.css";

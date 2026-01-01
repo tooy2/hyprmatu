@@ -1,0 +1,422 @@
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.544: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.544: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.545: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.546: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.546: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.546: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.546: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.547: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:12:55 [WARNING] (python3:10606): Gtk-WARNING **: 18:12:55.547: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:12:55 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:12:57 [INFO] Ready.
+2025-12-31 18:12:57 [SUCCESS] Happy New Year!
+2025-12-31 18:13:10 [INFO] Quitting.
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.256: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.257: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.258: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.258: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.258: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.258: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.259: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.259: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:26 [WARNING] (python3:10789): Gtk-WARNING **: 18:14:26.259: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:14:26 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:14:27 [ERROR] WindowAddedError: Window already added: "some-window"
+Traceback (most recent call last):
+
+  File "/usr/sbin/ignis", line 5, in <module>
+    main()
+    └ <function main at 0x7ff13a245300>
+  File "/usr/lib/python3.13/site-packages/ignis/main.py", line 12, in main
+    cli(prog_name="ignis")
+    └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {'prog_name': 'ignis'}
+           │    │     └ ()
+           │    └ <function Command.main at 0x7ff13a2d3f60>
+           └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7ff134711fd0>
+         │    └ <function Group.invoke at 0x7ff13a2e0ea0>
+         └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+           │               │       │       │      └ <click.core.Context object at 0x7ff134781e50>
+           │               │       │       └ <function Command.invoke at 0x7ff13a2d3c40>
+           │               │       └ <Command init>
+           │               └ <click.core.Context object at 0x7ff134781e50>
+           └ <function Group.invoke.<locals>._process_result at 0x7ff13b98f7e0>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │   │      │    │           └ <click.core.Context object at 0x7ff134781e50>
+           │   │      │    └ <function init at 0x7ff134246c00>
+           │   │      └ <Command init>
+           │   └ <function Context.invoke at 0x7ff13a2d2e80>
+           └ <click.core.Context object at 0x7ff134781e50>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │         └ ()
+           └ <function init at 0x7ff134246c00>
+  File "/usr/lib/python3.13/site-packages/ignis/cli.py", line 122, in init
+    run_app(config_path, debug)
+    │       │            └ False
+    │       └ '/home/abdo/.config/ignis/config.py'
+    └ <function run_app at 0x7ff1342474c0>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 590, in run_app
+    app.run(None)
+    │   └ <function Application.run at 0x7ff134738220>
+    └ <app.IgnisApp object at 0x7ff1317d4880 (ignis+app+IgnisApp at 0x560963eba9b0)>
+  File "/usr/lib/python3.13/site-packages/gi/overrides/Gio.py", line 132, in run
+    return Gio.Application.run(self, *args, **kwargs)
+           │   │           │   │      │       └ {}
+           │   │           │   │      └ (None,)
+           │   │           │   └ <app.IgnisApp object at 0x7ff1317d4880 (ignis+app+IgnisApp at 0x560963eba9b0)>
+           │   │           └ gi.FunctionInfo(run)
+           │   └ <class 'gi.repository.Gio.Application'>
+           └ <IntrospectionModule 'Gio' from '/usr/lib/girepository-1.0/Gio-2.0.typelib'>
+> File "/usr/lib/python3.13/site-packages/ignis/app.py", line 419, in do_activate
+    __import__(config_filename)
+               └ 'config'
+
+  File "/home/abdo/.config/ignis/config.py", line 11, in <module>
+    Widget.Window(
+    │      └ <class 'ignis.widgets.window.Window'>
+    └ <class 'ignis.widgets.Widget'>
+
+  File "/usr/lib/python3.13/site-packages/ignis/widgets/window.py", line 148, in __init__
+    app.add_window(namespace, self)
+    │   │          │          └ <window.Window object at 0x7ff131864100 (IgnisWindow at 0x5609645c5e50)>
+    │   │          └ 'some-window'
+    │   └ <function IgnisApp.add_window at 0x7ff1317b9e40>
+    └ <app.IgnisApp object at 0x7ff1317d4880 (ignis+app+IgnisApp at 0x560963eba9b0)>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 503, in add_window
+    raise WindowAddedError(window_name)
+          │                └ 'some-window'
+          └ <class 'ignis.exceptions.WindowAddedError'>
+
+ignis.exceptions.WindowAddedError: Window already added: "some-window"
+2025-12-31 18:14:34 [INFO] Quitting.
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.007: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.008: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.008: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.008: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.009: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.009: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.009: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.009: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:14:52 [WARNING] (python3:10833): Gtk-WARNING **: 18:14:52.010: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:14:52 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:14:53 [INFO] Ready.
+2025-12-31 18:14:53 [SUCCESS] Happy New Year!
+2025-12-31 18:15:04 [INFO] Quitting.
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.822: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.822: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.823: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.823: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.823: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.823: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.825: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.825: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:17:14 [WARNING] (python3:11703): Gtk-WARNING **: 18:17:14.826: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:17:14 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:17:14 [ERROR] ModuleNotFoundError: No module named 'ignis.menu_model'
+Traceback (most recent call last):
+
+  File "/usr/sbin/ignis", line 5, in <module>
+    main()
+    └ <function main at 0x7f9a6ed75300>
+  File "/usr/lib/python3.13/site-packages/ignis/main.py", line 12, in main
+    cli(prog_name="ignis")
+    └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {'prog_name': 'ignis'}
+           │    │     └ ()
+           │    └ <function Command.main at 0x7f9a6ee07f60>
+           └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7f9a69121fd0>
+         │    └ <function Group.invoke at 0x7f9a6ee10ea0>
+         └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+           │               │       │       │      └ <click.core.Context object at 0x7f9a6918de50>
+           │               │       │       └ <function Command.invoke at 0x7f9a6ee07c40>
+           │               │       └ <Command init>
+           │               └ <click.core.Context object at 0x7f9a6918de50>
+           └ <function Group.invoke.<locals>._process_result at 0x7f9a7078f7e0>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │   │      │    │           └ <click.core.Context object at 0x7f9a6918de50>
+           │   │      │    └ <function init at 0x7f9a68cb2c00>
+           │   │      └ <Command init>
+           │   └ <function Context.invoke at 0x7f9a6ee06e80>
+           └ <click.core.Context object at 0x7f9a6918de50>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │         └ ()
+           └ <function init at 0x7f9a68cb2c00>
+  File "/usr/lib/python3.13/site-packages/ignis/cli.py", line 122, in init
+    run_app(config_path, debug)
+    │       │            └ False
+    │       └ '/home/abdo/.config/ignis/config.py'
+    └ <function run_app at 0x7f9a68cb34c0>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 590, in run_app
+    app.run(None)
+    │   └ <function Application.run at 0x7f9a69144220>
+    └ <app.IgnisApp object at 0x7f9a662ec940 (ignis+app+IgnisApp at 0x55b992e14c60)>
+  File "/usr/lib/python3.13/site-packages/gi/overrides/Gio.py", line 132, in run
+    return Gio.Application.run(self, *args, **kwargs)
+           │   │           │   │      │       └ {}
+           │   │           │   │      └ (None,)
+           │   │           │   └ <app.IgnisApp object at 0x7f9a662ec940 (ignis+app+IgnisApp at 0x55b992e14c60)>
+           │   │           └ gi.FunctionInfo(run)
+           │   └ <class 'gi.repository.Gio.Application'>
+           └ <IntrospectionModule 'Gio' from '/usr/lib/girepository-1.0/Gio-2.0.typelib'>
+> File "/usr/lib/python3.13/site-packages/ignis/app.py", line 419, in do_activate
+    __import__(config_filename)
+               └ 'config'
+
+  File "/home/abdo/.config/ignis/config.py", line 4, in <module>
+    from ignis.menu_model import IgnisMenuModel, IgnisMenuItem, IgnisMenuSeparator
+
+ModuleNotFoundError: No module named 'ignis.menu_model'
+2025-12-31 18:18:05 [INFO] Quitting.
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.434: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.434: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.435: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.435: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.435: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.435: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.436: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.436: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:18:30 [WARNING] (python3:11910): Gtk-WARNING **: 18:18:30.436: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:18:30 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:18:30 [ERROR] ModuleNotFoundError: No module named 'ignis.menu_model'
+Traceback (most recent call last):
+
+  File "/usr/sbin/ignis", line 5, in <module>
+    main()
+    └ <function main at 0x7fc780d6d300>
+  File "/usr/lib/python3.13/site-packages/ignis/main.py", line 12, in main
+    cli(prog_name="ignis")
+    └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {'prog_name': 'ignis'}
+           │    │     └ ()
+           │    └ <function Command.main at 0x7fc780dfbf60>
+           └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7fc77b119fd0>
+         │    └ <function Group.invoke at 0x7fc780e08ea0>
+         └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+           │               │       │       │      └ <click.core.Context object at 0x7fc77b189e50>
+           │               │       │       └ <function Command.invoke at 0x7fc780dfbc40>
+           │               │       └ <Command init>
+           │               └ <click.core.Context object at 0x7fc77b189e50>
+           └ <function Group.invoke.<locals>._process_result at 0x7fc78278f7e0>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │   │      │    │           └ <click.core.Context object at 0x7fc77b189e50>
+           │   │      │    └ <function init at 0x7fc77acaec00>
+           │   │      └ <Command init>
+           │   └ <function Context.invoke at 0x7fc780dfae80>
+           └ <click.core.Context object at 0x7fc77b189e50>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │         └ ()
+           └ <function init at 0x7fc77acaec00>
+  File "/usr/lib/python3.13/site-packages/ignis/cli.py", line 122, in init
+    run_app(config_path, debug)
+    │       │            └ False
+    │       └ '/home/abdo/.config/ignis/config.py'
+    └ <function run_app at 0x7fc77acaf4c0>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 590, in run_app
+    app.run(None)
+    │   └ <function Application.run at 0x7fc77b140220>
+    └ <app.IgnisApp object at 0x7fc7782f0640 (ignis+app+IgnisApp at 0x5608b05b1c80)>
+  File "/usr/lib/python3.13/site-packages/gi/overrides/Gio.py", line 132, in run
+    return Gio.Application.run(self, *args, **kwargs)
+           │   │           │   │      │       └ {}
+           │   │           │   │      └ (None,)
+           │   │           │   └ <app.IgnisApp object at 0x7fc7782f0640 (ignis+app+IgnisApp at 0x5608b05b1c80)>
+           │   │           └ gi.FunctionInfo(run)
+           │   └ <class 'gi.repository.Gio.Application'>
+           └ <IntrospectionModule 'Gio' from '/usr/lib/girepository-1.0/Gio-2.0.typelib'>
+> File "/usr/lib/python3.13/site-packages/ignis/app.py", line 419, in do_activate
+    __import__(config_filename)
+               └ 'config'
+
+  File "/home/abdo/.config/ignis/config.py", line 4, in <module>
+    from ignis.menu_model import IgnisMenuModel, IgnisMenuItem, IgnisMenuSeparator
+
+ModuleNotFoundError: No module named 'ignis.menu_model'
+2025-12-31 18:18:32 [INFO] Quitting.
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.316: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.317: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.318: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.319: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.319: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.320: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.320: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.320: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:19:49 [WARNING] (python3:12054): Gtk-WARNING **: 18:19:49.321: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:19:49 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:19:49 [INFO] Applied css: /home/abdo/.config/ignis/style.scss
+2025-12-31 18:19:49 [WARNING] Notification history file is corrupted! Cleaning...
+2025-12-31 18:19:51 [INFO] Ready.
+2025-12-31 18:19:51 [SUCCESS] Happy New Year!
+2025-12-31 18:19:51 [ERROR] AnotherNotificationDaemonRunningError: Another notification daemon is already running: SwayNotificationCenter
+Traceback (most recent call last):
+
+  File "/usr/sbin/ignis", line 5, in <module>
+    main()
+    └ <function main at 0x7f2207491300>
+  File "/usr/lib/python3.13/site-packages/ignis/main.py", line 12, in main
+    cli(prog_name="ignis")
+    └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {'prog_name': 'ignis'}
+           │    │     └ ()
+           │    └ <function Command.main at 0x7f220751ff60>
+           └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7f2201919fd0>
+         │    └ <function Group.invoke at 0x7f220752cea0>
+         └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+           │               │       │       │      └ <click.core.Context object at 0x7f2201985e50>
+           │               │       │       └ <function Command.invoke at 0x7f220751fc40>
+           │               │       └ <Command init>
+           │               └ <click.core.Context object at 0x7f2201985e50>
+           └ <function Group.invoke.<locals>._process_result at 0x7f2208b8f7e0>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │   │      │    │           └ <click.core.Context object at 0x7f2201985e50>
+           │   │      │    └ <function init at 0x7f220148ac00>
+           │   │      └ <Command init>
+           │   └ <function Context.invoke at 0x7f220751ee80>
+           └ <click.core.Context object at 0x7f2201985e50>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │         └ ()
+           └ <function init at 0x7f220148ac00>
+  File "/usr/lib/python3.13/site-packages/ignis/cli.py", line 122, in init
+    run_app(config_path, debug)
+    │       │            └ False
+    │       └ '/home/abdo/.config/ignis/config.py'
+    └ <function run_app at 0x7f220148b4c0>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 590, in run_app
+    app.run(None)
+    │   └ <function Application.run at 0x7f220193c220>
+    └ <app.IgnisApp object at 0x7f220021ca80 (ignis+app+IgnisApp at 0x556803159ce0)>
+  File "/usr/lib/python3.13/site-packages/gi/overrides/Gio.py", line 132, in run
+    return Gio.Application.run(self, *args, **kwargs)
+           │   │           │   │      │       └ {}
+           │   │           │   │      └ (None,)
+           │   │           │   └ <app.IgnisApp object at 0x7f220021ca80 (ignis+app+IgnisApp at 0x556803159ce0)>
+           │   │           └ gi.FunctionInfo(run)
+           │   └ <class 'gi.repository.Gio.Application'>
+           └ <IntrospectionModule 'Gio' from '/usr/lib/girepository-1.0/Gio-2.0.typelib'>
+> File "/usr/lib/python3.13/site-packages/ignis/services/notifications/service.py", line 85, in __on_name_lost
+    raise AnotherNotificationDaemonRunningError(name)
+          │                                     └ 'SwayNotificationCenter'
+          └ <class 'ignis.exceptions.AnotherNotificationDaemonRunningError'>
+
+ignis.exceptions.AnotherNotificationDaemonRunningError: Another notification daemon is already running: SwayNotificationCenter
+2025-12-31 18:20:40 [INFO] Quitting.
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.817: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.818: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.820: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.820: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.820: Theme parser error: gtk.css:4:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.821: Theme parser error: gtk.css:8:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.821: Theme parser error: gtk.css:12:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.821: Theme parser error: gtk.css:16:5-20: No property named "backdrop-filter"
+2025-12-31 18:21:03 [WARNING] (python3:12271): Gtk-WARNING **: 18:21:03.821: Theme parser error: gtk.css:19:1-22: Failed to import: Error opening file /usr/share/themes/adw-gtk3-dark/gtk-4.0/colors.css: No such file or directory
+2025-12-31 18:21:03 [INFO] Using configuration file: /home/abdo/.config/ignis/config.py
+2025-12-31 18:21:04 [INFO] Applied css: /home/abdo/.config/ignis/style.scss
+2025-12-31 18:21:05 [INFO] Ready.
+2025-12-31 18:21:05 [SUCCESS] Happy New Year!
+2025-12-31 18:21:05 [ERROR] AnotherNotificationDaemonRunningError: Another notification daemon is already running: SwayNotificationCenter
+Traceback (most recent call last):
+
+  File "/usr/sbin/ignis", line 5, in <module>
+    main()
+    └ <function main at 0x7fabd1859300>
+  File "/usr/lib/python3.13/site-packages/ignis/main.py", line 12, in main
+    cli(prog_name="ignis")
+    └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           │    │     │       └ {'prog_name': 'ignis'}
+           │    │     └ ()
+           │    └ <function Command.main at 0x7fabd18e7f60>
+           └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         │    │      └ <click.core.Context object at 0x7fabcbd19fd0>
+         │    └ <function Group.invoke at 0x7fabd18f4ea0>
+         └ <OrderedGroup cli>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+           │               │       │       │      └ <click.core.Context object at 0x7fabcbd89e50>
+           │               │       │       └ <function Command.invoke at 0x7fabd18e7c40>
+           │               │       └ <Command init>
+           │               └ <click.core.Context object at 0x7fabcbd89e50>
+           └ <function Group.invoke.<locals>._process_result at 0x7fabd2f8f7e0>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           │   │      │    │           │   └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │   │      │    │           └ <click.core.Context object at 0x7fabcbd89e50>
+           │   │      │    └ <function init at 0x7fabcb84ac00>
+           │   │      └ <Command init>
+           │   └ <function Context.invoke at 0x7fabd18e6e80>
+           └ <click.core.Context object at 0x7fabcbd89e50>
+  File "/usr/lib/python3.13/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           │         │       └ {'config': '/home/abdo/.config/ignis/config.py', 'debug': False}
+           │         └ ()
+           └ <function init at 0x7fabcb84ac00>
+  File "/usr/lib/python3.13/site-packages/ignis/cli.py", line 122, in init
+    run_app(config_path, debug)
+    │       │            └ False
+    │       └ '/home/abdo/.config/ignis/config.py'
+    └ <function run_app at 0x7fabcb84b4c0>
+  File "/usr/lib/python3.13/site-packages/ignis/app.py", line 590, in run_app
+    app.run(None)
+    │   └ <function Application.run at 0x7fabcbd3c220>
+    └ <app.IgnisApp object at 0x7fabc8dece40 (ignis+app+IgnisApp at 0x563be1e84fb0)>
+  File "/usr/lib/python3.13/site-packages/gi/overrides/Gio.py", line 132, in run
+    return Gio.Application.run(self, *args, **kwargs)
+           │   │           │   │      │       └ {}
+           │   │           │   │      └ (None,)
+           │   │           │   └ <app.IgnisApp object at 0x7fabc8dece40 (ignis+app+IgnisApp at 0x563be1e84fb0)>
+           │   │           └ gi.FunctionInfo(run)
+           │   └ <class 'gi.repository.Gio.Application'>
+           └ <IntrospectionModule 'Gio' from '/usr/lib/girepository-1.0/Gio-2.0.typelib'>
+> File "/usr/lib/python3.13/site-packages/ignis/services/notifications/service.py", line 85, in __on_name_lost
+    raise AnotherNotificationDaemonRunningError(name)
+          │                                     └ 'SwayNotificationCenter'
+          └ <class 'ignis.exceptions.AnotherNotificationDaemonRunningError'>
+
+ignis.exceptions.AnotherNotificationDaemonRunningError: Another notification daemon is already running: SwayNotificationCenter
+2025-12-31 18:22:30 [INFO] Quitting.

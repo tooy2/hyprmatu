@@ -1,0 +1,11 @@
+Selected compositor ID: hyprland.desktop
+          Command Line: Hyprland
+      Plugin/binary ID: hyprland
+ Initial Desktop Names: Hyprland
+                  Name: Hyprland
+           Description: An intelligent dynamic tiling Wayland compositor
+
+Units unchanged.
+Starting hyprland.desktop and waiting while it is running...
+Starting wayland-wm@hyprland.desktop.service...
+Forked systemctl, PID 4768.
